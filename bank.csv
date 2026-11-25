@@ -1,0 +1,15 @@
+Datum;Beschreibung;Betrag_EUR;Typ;Kategorie
+2026-03-01;Gehalt April;2800.00;Eingang;Geldeingang
+2026-03-02;Miete Wohnbau GmbH;-850.00;Ausgang;Essen, Trinken, Miete
+2026-03-03;REWE Supermarkt;-64.35;Ausgang;Essen, Trinken, Miete
+2026-03-05;Netflix Subscription;-17.99;Ausgang;Unterhaltung
+2026-03-08;Café Central;-12.50;Ausgang;Essen, Trinken, Miete
+2026-03-10;FitX Mitgliedsbeitrag;-29.90;Ausgang;Freizeit
+2026-03-12;Kino Open Air;-24.00;Ausgang;Freizeit
+2026-03-15;Rückzahlung Max;-50.00;Ausgang;Anderes
+2026-03-18;Steam Game Purchase;-39.99;Ausgang;Unterhaltung
+2026-03-20;Bäckerei Schmidt;-8.40;Ausgang;Essen, Trinken, Miete
+2026-03-22;Spotify Premium;-10.99;Ausgang;Unterhaltung
+2026-03-25;Amazon Prime;-8.99;Ausgang;Unterhaltung
+2026-03-28;Bonus Projektarbeit;350.00;Eingang;Geldeingang
+2026-03-30;Apotheke Vital;-18.50;Ausgang;Anderes

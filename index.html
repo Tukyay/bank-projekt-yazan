@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Transaktionen Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Bank Transaktionen Dashboard</h1>
+            <p>Übersicht aller Finanzeingänge und -ausgaben für März 2026</p>
+        </header>
+
+        <section class="stats-grid">
+            <div class="stat-card">
+                <h3>Gesamteinnahmen</h3>
+                <p class="amount positive">+ 3.150,00 €</p>
+            </div>
+            <div class="stat-card">
+                <h3>Gesamtausgaben</h3>
+                <p class="amount negative">- 1.117,61 €</p>
+            </div>
+            <div class="stat-card">
+                <h3>Gewinn / Saldo</h3>
+                <p class="amount positive">+ 2.032,39 €</p>
+            </div>
+        </section>
+
+        <main class="table-responsive">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Datum</th>
+                        <th>Beschreibung</th>
+                        <th>Betrag (€)</th>
+                        <th>Typ</th>
+                        <th>Kategorie</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2026-03-01</td>
+                        <td>Gehalt April</td>
+                        <td class="amount positive">+3.150,00 €</td>
+                        <td>Eingang</td>
+                        <td><span class="badge badge-geldeingang">Geldeingang</span></td>
+                    </tr>
+                    <tr>
+                        <td>2026-03-02</td>
+                        <td>Miete Wohnbau GmbH</td>
+                        <td class="amount negative">-850,00 €</td>
+                        <td>Ausgang</td>
+                        <td><span class="badge badge-essen">Essen, Trinken, Miete</span></td>
+                    </tr>
+                    <tr>
+                        <td>2026-03-03</td>
+                        <td>REWE Supermarkt</td>
+                        <td class="amount negative">-64,35 €</td>
+                        <td>Ausgang</td>
+                        <td><span class="badge badge-essen">Essen, Trinken, Miete</span></td>
+                    </tr>
+                    <tr>
+                        <td>2026-03-05</td>
+                        <td>Netflix Subscription</td>
+                        <td class="amount negative">-17,99 €</td>
+                        <td>Ausgang</td>
+                        <td><span class="badge badge-unterhaltung">Unterhaltung</span></td>
+                    </tr>
+                    <tr>
+                        <td>2026-03-08</td>
+                        <td>Café Central</td>
+                        <td class="amount negative">-12,50 €</td>
+                        <td>Ausgang</td>
+                        <td><span class="badge badge-essen">Essen, Trinken, Miete</span></td>
+                    </tr>
+                    <tr>
+                        <td>2026-03-10</td>
+                        <td>FitX Mitgliedsbeitrag</td>
+                        <td class="amount negative">-29,90 €</td>
+                        <td>Ausgang</td>
+                        <td><span class="badge badge-freizeit">Freizeit</span></td>
+                    </tr>
+                    <tr>
+                        <td>2026-03-12</td>
+                        <td>Kino Open Air</td>
+                        <td class="amount negative">-24,00 €</td>
+                        <td>Ausgang</td>
+                        <td><span class="badge badge-freizeit">Freizeit</span></td>
+                    </tr>
+                    <tr>
+                        <td>2026-03-15</td>
+                        <td>Rückzahlung Max</td>
+                        <td class="amount negative">-50,00 €</td>
+                        <td>Ausgang</td>
+                        <td><span class="badge badge-anderes">Anderes</span></td>
+                    </tr>
+                    <tr>
+                        <td>2026-03-18</td>
+                        <td>Steam Game Purchase</td>
+                        <td class="amount negative">-39,99 €</td>
+                        <td>Ausgang</td>
+                        <td><span class="badge badge-unterhaltung">Unterhaltung</span></td>
+                    </tr>
+                    <tr>
+                        <td>2026-03-20</td>
+                        <td>Bäckerei Schmidt</td>
+                        <td class="amount negative">-8,40 €</td>
+                        <td>Ausgang</td>
+                        <td><span class="badge badge-essen">Essen, Trinken, Miete</span></td>
+                    </tr>
+                    <tr>
+                        <td>2026-03-22</td>
+                        <td>Spotify Premium</td>
+                        <td class="amount negative">-10,99 €</td>
+                        <td>Ausgang</td>
+                        <td><span class="badge badge-unterhaltung">Unterhaltung</span></td>
+                    </tr>
+                    <tr>
+                        <td>2026-03-25</td>
+                        <td>Amazon Prime</td>
+                        <td class="amount negative">-8,99 €</td>
+                        <td>Ausgang</td>
+                        <td><span class="badge badge-unterhaltung">Unterhaltung</span></td>
+                    </tr>
+                    <tr>
+                        <td>2026-03-28</td>
+                        <td>Bonus Projektarbeit</td>
+                        <td class="amount positive">+350,00 €</td>
+                        <td>Eingang</td>
+                        <td><span class="badge badge-geldeingang">Geldeingang</span></td>
+                    </tr>
+                    <tr>
+                        <td>2026-03-30</td>
+                        <td>Apotheke Vital</td>
+                        <td class="amount negative">-18,50 €</td>
+                        <td>Ausgang</td>
+                        <td><span class="badge badge-anderes">Anderes</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Session 3 Handson-Exercise | Entwickelt mit GitHub Copilot & VS Code</p>
+        </footer>
+    </div>
+</body>
+</html>
